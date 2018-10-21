@@ -1,0 +1,31 @@
+{
+  "name": "bitcoinprimes",
+  "description": "Bitcoin Primes",
+  "author": {
+    "email": "letmedev.com@gmail.com",
+    "name": "Duncan Smith",
+    "url": "https://duncan.letmedev.com"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/duncansmith3/bitcoinprimes.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node index"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "mock-fs": "^4.7.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
